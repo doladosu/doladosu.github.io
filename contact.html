@@ -8,5 +8,21 @@
 
             <button onclick="document.location='index.html'">Go back Home</button>
 
+            <p class="heroes" style="color:green">I am Batman</p>
+            <p class="heroes">I am Robin</p>
+            <p class="heroes">I am Spiderman</p>
+            <p class="heroes">I am Iron Man</p>
+
     </body>
+    <script>
+        function myFunction() {
+          var x = document.getElementsByClassName("heroes");
+          for (var i = 0; i < x.length; i++) {
+            x[i].style.color = "yellow";
+          }
+        }
+
+        myFunction();
+
+    </script>
 </html>
