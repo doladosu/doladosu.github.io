@@ -8,17 +8,20 @@
 
             <button onclick="document.location='index.html'">Go back Home</button>
 
-            <p class="heroes" style="color:green">I am Batman</p>
+            <p class="heroes">I am Batman</p>
             <p class="heroes">I am Robin</p>
             <p class="heroes">I am Spiderman</p>
             <p class="heroes">I am Iron Man</p>
-
+            <input type="text" value="" id="touchMe"></input>
     </body>
     <script>
         function myFunction() {
+            var y = document.getElementById("touchMe");
+            y.value = "Pleeessse!";
           var x = document.getElementsByClassName("heroes");
           for (var i = 0; i < x.length; i++) {
-            x[i].style.color = "yellow";
+             x[i].innerHTML = 'I am big Jay';
+            //x[i].style.color = "yellow";
           }
         }
 

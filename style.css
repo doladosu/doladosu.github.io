@@ -5,3 +5,7 @@ body{background-color:powderblue;}
 .heroes{
     color: blue;
 }
+
+#heroesId{
+    color: green;
+}
